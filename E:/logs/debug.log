@@ -1,0 +1,31 @@
+2017-10-25 22:24:20  [ main:0 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:24:21  [ main:356 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:24:21  [ main:360 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:24:21  [ main:366 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:24:21  [ main:490 ] - [ DEBUG ]  Send request - POST https://api.jpush.cn/v3/push
+2017-10-25 22:24:21  [ main:491 ] - [ DEBUG ]  Request Content - {"platform":"all","audience":"all","notification":{"alert":"This push contains only the title"},"options":{"sendno":831763573,"apns_production":false}}
+2017-10-25 22:24:21  [ main:1068 ] - [ DEBUG ]  JPush API Rate Limiting params - quota:600, remaining:599, reset:60
+2017-10-25 22:24:21  [ main:1069 ] - [ DEBUG ]  Succeed to get response OK - responseCode:200
+2017-10-25 22:24:21  [ main:1069 ] - [ DEBUG ]  Response Content - {"sendno":"831763573","msg_id":"2153046693"}
+2017-10-25 22:24:21  [ main:1094 ] - [ INFO ]  Log4j Info
+2017-10-25 22:26:34  [ main:0 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:26:34  [ main:359 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:26:34  [ main:364 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:26:34  [ main:377 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:26:34  [ main:507 ] - [ DEBUG ]  Send request - POST https://api.jpush.cn/v3/push
+2017-10-25 22:26:34  [ main:508 ] - [ DEBUG ]  Request Content - {"platform":"all","audience":"all","notification":{"alert":"This push contains only the title"},"options":{"sendno":608300261,"apns_production":false}}
+2017-10-25 22:26:35  [ main:1165 ] - [ DEBUG ]  JPush API Rate Limiting params - quota:600, remaining:599, reset:60
+2017-10-25 22:26:35  [ main:1165 ] - [ DEBUG ]  Succeed to get response OK - responseCode:200
+2017-10-25 22:26:35  [ main:1166 ] - [ DEBUG ]  Response Content - {"sendno":"608300261","msg_id":"2802198434"}
+2017-10-25 22:26:35  [ main:1192 ] - [ INFO ]  Log4j Info
+2017-10-25 22:38:53  [ main:0 ] - [ INFO ]  ====Test JPush Start===
+2017-10-25 22:38:54  [ main:120 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:38:54  [ main:389 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:38:54  [ main:396 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:38:54  [ main:399 ] - [ INFO ]  Created instance with connectionTimeout 5,000, readTimeout 30,000, maxRetryTimes 3, SSL Version TLS
+2017-10-25 22:38:54  [ main:597 ] - [ DEBUG ]  Send request - POST https://api.jpush.cn/v3/push
+2017-10-25 22:38:54  [ main:598 ] - [ DEBUG ]  Request Content - {"platform":"all","audience":"all","notification":{"alert":"This push contains only the title"},"options":{"sendno":872557085,"apns_production":false}}
+2017-10-25 22:38:55  [ main:1230 ] - [ DEBUG ]  JPush API Rate Limiting params - quota:600, remaining:599, reset:60
+2017-10-25 22:38:55  [ main:1231 ] - [ DEBUG ]  Succeed to get response OK - responseCode:200
+2017-10-25 22:38:55  [ main:1231 ] - [ DEBUG ]  Response Content - {"sendno":"872557085","msg_id":"2803563283"}
+2017-10-25 22:38:55  [ main:1265 ] - [ INFO ]  ====Test JPush End===
